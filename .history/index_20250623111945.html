@@ -16,35 +16,29 @@
             text-align: center;
             background-color: hsl(212, 45%, 89%);
             font-size: 15px;
-            font-family: 'Outfit', sans-serif;
         }
         
         .container {
-            margin: 80px auto;
-            padding: 16px 16px 24px 16px;
+            margin: 80px 530px;
+            padding: 10px 9px;
             background-color: white;
             border-radius: 10px;
-            max-width: 320px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+            font-family: 'Outfit', sans-serif;
         }
         
-        img {
-            width: 100%;
-            max-width: 260px;
-            height: auto;
-            border-radius: 10px;
-            display: block;
-            margin: 0 auto 16px auto;
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
         }
         
         @media (max-width: 375px) {
             .container {
-                margin: 24px 8px;
-                padding: 12px 8px 16px 8px;
-                max-width: 100%;
-            }
-            img {
-                max-width: 100%;
+                margin: 100px 600px;
+                padding: 10px 9px;
             }
         }
     </style>
@@ -52,7 +46,7 @@
 
 <body>
     <div class="container">
-        <img src="./images/image-qr-code.png" alt="qr-code">
+        <img src="./images/image-qr-code.png" alt="qr-code" style="width: 260px; height: 260px; border-radius: 10px;">
         <p style="font-size: 20px;"><b>Improve your front-end skills by building projects</b></p>
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
         <div class="attribution">
